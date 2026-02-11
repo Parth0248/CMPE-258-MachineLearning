@@ -2,3 +2,10 @@ flutter/
 local_tmp/
 .pub-cache/
 .venv/
+local_node*/
+.npm-cache/
+__pycache__/
+*.pyc
+.DS_Store
+ze-tasks/web/dist
+node_modules/

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 min-h-screen;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/20 backdrop-blur-lg border border-white/30 rounded-xl shadow-lg;
+}
+
+.glass-btn {
+  @apply bg-white/30 hover:bg-white/40 active:bg-white/50 backdrop-blur-md border border-white/20 rounded-lg px-4 py-2 transition-all duration-200 text-white font-medium shadow-sm hover:shadow-md;
+}
+
+.glass-input {
+  @apply bg-white/10 focus:bg-white/20 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-2 outline-none transition-colors duration-200 text-white placeholder-white/60 w-full;
+}
