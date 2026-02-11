@@ -9,7 +9,7 @@ import { Plus, Settings, Sun } from 'lucide-react';
 import { createPortal } from 'react-dom';
 
 function App() {
-  const { tasks, addTask, moveTask, updateTaskStatus } = useTaskStore();
+  const { tasks, addTask, moveTask, updateTaskStatus, deleteTask } = useTaskStore();
   const [activeId, setActiveId] = useState<string | null>(null);
   const [showInput, setShowInput] = useState(false);
 
@@ -77,6 +77,7 @@ function App() {
                 id={col}
                 title={col.replace('-', ' ')}
                 tasks={tasks.filter(t => t.status === col)}
+                onDelete={deleteTask}
               />
             </SortableContext>
           ))}
