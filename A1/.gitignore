@@ -1,0 +1,4 @@
+flutter/
+local_tmp/
+.pub-cache/
+.venv/
