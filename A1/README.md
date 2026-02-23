@@ -1,6 +1,8 @@
 # Assignment 1: Agentic Coding Tasks
 
-This repository contains the deliverables for Assignment 1, demonstrating the use of Agentic AI tools for various coding and creative tasks.
+This repository contains the deliverables for Assignment 1, demonstrating the use of Agentic AI tools for various coding and creative tasks.    
+
+[Video Walkthrough](https://drive.google.com/drive/folders/18UB6Zte9XeDx7HlOBl6ShW5pDUk5ezrR?usp=sharing)    
 
 ## 📂 Project Structure
 
